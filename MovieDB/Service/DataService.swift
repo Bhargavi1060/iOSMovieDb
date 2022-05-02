@@ -12,7 +12,7 @@ struct DataService {
     
     // MARK: - Singleton
     static let shared = DataService()
-        
+    
     
     // MARK: - Services
     func requestFetchMovie(with id: Int, completion: @escaping (Movie?, Error?) -> ()) {
